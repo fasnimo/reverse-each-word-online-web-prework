@@ -4,8 +4,7 @@ def reverse_each_word(string)
  
   lingo.collect do |string|
   new_array << string.reverse
- 
-end 
+ end 
 new_array.join(" ")
 end
  
